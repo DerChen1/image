@@ -1,0 +1,21 @@
+spring:
+  jackson:
+    default-property-inclusion: non_null
+  mvc:
+    favicon:
+      enabled: false
+  http:
+    multipart:
+      maxFileSize: 100Mb
+      maxRequestSize: 1000Mb
+server:
+  context-path: /wykj
+  port: 8081
+
+  #swagger
+swagger:
+  swaggerEnable: true
+  title: 图片上传 接口文档
+  description:  接口RESTful Api文档
+  contact: zhang_xiaotai@126.com
+  version: 0.0.1
